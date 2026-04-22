@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: process.env.firebase_apiKey,
-    authDomain: process.env.firebase_authDomain,
-    projectId: process.env.firebase_projectId,
-    storageBucket: process.env.firebase_storageBucket,
-    messagingSenderId: process.env.firebase_messagingSenderId,
-    appId: process.env.firebase_appId
+    apiKey: process.env.VUE_APP_firebase_apiKey,
+    authDomain: process.env.VUE_APP_firebase_authDomain,
+    projectId: process.env.VUE_APP_firebase_projectId,
+    storageBucket: process.env.VUE_APP_firebase_storageBucket,
+    messagingSenderId: process.env.VUE_APP_firebase_messagingSenderId,
+    appId: process.env.VUE_APP_firebase_appId
 };
-
+console.log(process.env)
 export default firebaseConfig;
